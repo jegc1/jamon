@@ -6,7 +6,7 @@ package jamon;
 
 /**
  *
- * @author portatil_profesorado
+ * @author GonzalezClarosJoseEugenio
  */
 public class Main {
     
@@ -21,7 +21,10 @@ public class Main {
         stockActual = miJamonGonzalezClarosJoseEugenio2122.obtenerStock();
         System.out.println("El stock actual es "+ stockActual );
     }
-
+/**
+ * Método creado mediante refactorización
+ * @param recibe un oobjeto de la clase jamon
+ */
     private static void compraJamGonzalezClarosJoseEugenio2122(JamonGonzalezClarosJoseEugenio2122 miJamonGonzalezClarosJoseEugenio2122) {
         try
         {
@@ -32,7 +35,10 @@ public class Main {
             System.out.print("Fallo al ingresar " + e);
         }
     }
-
+/** Método de venta creado mediante refactorización
+ * 
+ * @param recibe un objeto de la clase jamon
+ */
     private static void vendeJamGonzalezClarosJoseEugenio2122(JamonGonzalezClarosJoseEugenio2122 miJamonGonzalezClarosJoseEugenio2122) {
         try
         {
