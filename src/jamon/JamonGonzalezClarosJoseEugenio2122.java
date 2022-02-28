@@ -14,7 +14,7 @@ public class JamonGonzalezClarosJoseEugenio2122 {
     private double precio;
     private int mesesCuracion;
     private int stock;
-
+        
     /* Constructor sin argumentos */
     public JamonGonzalezClarosJoseEugenio2122 ()
     {
